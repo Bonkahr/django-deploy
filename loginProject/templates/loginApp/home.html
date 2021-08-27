@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href={% static 'css/loginApp.css' %}>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Bonkahr Enterprises</h1>
+        <h2>Create Account and be one of us.</h2>
+        <button class="btn btn-primary"><a href="/register">Create Account</a>
+        </button>
+        <h3>Already one of us, Login</h3>
+        <button class="btn btn-primary"><a href="/login">Login </a>
+        </button>
+        <h3>Login as Admin</h3>
+        <button class="btn btn-primary"><a href="/admin">Login as Admin</a>
+        </button>
+    </div>
+
+</body>
+</html>

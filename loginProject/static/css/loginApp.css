@@ -1,0 +1,20 @@
+body{
+    background-color: darkslategray;
+    color: antiquewhite;
+}
+
+div{
+    background-color: cadetblue;
+    color: aliceblue;
+    border-radius: 0 0 10px 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+h1{
+    color: chartreuse;
+}
